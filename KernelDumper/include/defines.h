@@ -6,7 +6,7 @@
 #define	KERN_PRISON0 		0x10986A0
 #define	KERN_ROOTVNODE 		0x22C1A70
 #define	KERN_UART_ENABLE 	0		// mira takes care of this
-#define KERN_DUMPSIZE 		110854144	// can change if you want but may crash if you hit critical code in gpu memory
+#define KERN_DUMPSIZE 		108806144	// can change if you want but may crash if you hit critical code in gpu memory
 #define PAGE_SIZE 16348
 #define KERN_DUMPITER KERN_DUMPSIZE / PAGE_SIZE 	// can only dump a page at at time so we need to iterate
 #define	CTL_KERN	1				/* "high kernel": proc, limits */
